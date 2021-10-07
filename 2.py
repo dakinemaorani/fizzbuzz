@@ -4,7 +4,7 @@
 #If it is divisible by both 3 and 5, it should return “FizzBuzz”.
 #Otherwise, it should return the same number.
 
-
+x = int(input("give me a number: ")
 
 def fizz_buzz(x):
     if x%3 == 0 and x%5 == 0:
@@ -16,5 +16,5 @@ def fizz_buzz(x):
     else:
         return x
 
-print(fizz_buzz(4))
+print(fizz_buzz(x))
 
